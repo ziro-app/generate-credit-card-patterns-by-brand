@@ -1,0 +1,12 @@
+{
+  "name": "generate-credit-card-patterns-by-brand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "brandsRawPatterns.js",
+  "scripts": {
+    "start": "node generatePatterns.js"
+  },
+  "keywords": [],
+  "author": "Vitor Barbosa",
+  "license": "ISC"
+}
