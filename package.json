@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "Vitor Barbosa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
