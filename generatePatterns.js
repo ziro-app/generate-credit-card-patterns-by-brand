@@ -1,4 +1,5 @@
 const brands = require('./brandsRawPatterns')
+const createFile = require('./createFile')
 
 const expandPatterns = range => {
     if (range instanceof Array) {
@@ -20,4 +21,4 @@ const generatePatterns = () => {
   return brands
 }
 
-module.exports = generatePatterns
+createFile(generatePatterns())

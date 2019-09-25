@@ -19,7 +19,9 @@ const createFile = async brands => {
 			try {
 				await append('./brands.js', JSON.stringify({ brands }, null, 2))
 				console.log('brands.js file created successfully')
-			} catch (error) console.log(error)
+			} catch (error) {
+				console.log(error)
+			}
 		} else console.log(error)
 	}
 }
